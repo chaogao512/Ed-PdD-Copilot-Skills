@@ -70,4 +70,4 @@
 | 高校教育数据治理 | 检验技能是否能区分数据平台建设与数据治理能力建设 | `docs/examples/case-education-data-governance/` |
 | 人机协同课堂评价 | 检验技能是否能处理 AI 评价、教师判断、学生权益和形成性评价之间的关系 | `docs/examples/case-human-ai-assessment/` |
 
-新增案例优先跑通三个核心技能：`governance-idea-evaluator`、`governance-paper-template`、`mixed-methods-evidence-template`。后续可继续扩展到引言、图示、投稿审查和 AI 辅助研究流程。
+V1.2 起，三个新增案例均已跑通 7 个技能：`governance-idea-evaluator`、`governance-paper-template`、`mixed-methods-evidence-template`、`edtech-intro-drafter`、`governance-figure-designer`、`edtech-pre-submission-reviewer`、`ai-assisted-edtech-research-workflow`。

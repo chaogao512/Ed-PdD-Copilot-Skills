@@ -20,6 +20,8 @@
 | 12 | OECD AI Principles | International AI principles | https://oecd.ai/en/ai-principles | Human-centred values, transparency, robustness, accountability |
 | 13 | European Commission, DigCompEdu | Digital competence framework | https://joint-research-centre.ec.europa.eu/digcompedu_en | Teacher digital competence, professional engagement, teaching, assessment and learner empowerment |
 | 14 | UNESCO, Recommendation on the Ethics of Artificial Intelligence | International ethics recommendation | https://www.unesco.org/en/artificial-intelligence/recommendation-ethics | Human rights, transparency, accountability, fairness and governance framing for AI |
+| 15 | Education Endowment Foundation, *Effective Professional Development* | Evidence guidance | https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/effective-professional-development | Teacher professional development design, implementation and mechanism evidence |
+| 16 | What Works Clearinghouse Standards Handbook | Evidence standard | https://ies.ed.gov/ncee/wwc/Handbooks | Education intervention evidence, causal claims, study quality and evidence boundaries |
 
 ## Candidate Sources Not Used as Formal Citations
 
@@ -38,3 +40,9 @@ When adding a source-based rule to a skill:
 - The V1.1 multi-case examples use verified international frameworks for rule design, not as substitutes for Chinese policy or CSSCI literature.
 - Chinese policy and Chinese journal records remain important for future localization, but they should be added only after URL, PDF or bibliographic metadata are verified.
 - Current V1.1 rules derived from these sources focus on: human oversight, risk governance, teacher digital competence, data minimization, explainability, fairness, accountability and evidence boundaries.
+
+## V1.2 Source-Use Notes
+
+- EEF professional development guidance supports the teacher digital competence case by emphasizing that teacher learning should connect mechanisms, practice, feedback and implementation rather than simple training attendance.
+- WWC evidence standards support the mixed-methods and pre-submission rules that causal claims require stronger designs than satisfaction surveys or one-shot posttests.
+- These sources are used to strengthen evidence-boundary rules, not to replace field-specific Chinese literature that still requires verification.

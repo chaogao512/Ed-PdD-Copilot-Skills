@@ -1,8 +1,18 @@
 # Teacher Digital Competence Case: Paper Skeleton
 
+## Input Summary
+
+区域中小学教师数字胜任力提升的组织支持机制研究。
+
 ## Skill Invoked
 
 `governance-paper-template`
+
+## References Used
+
+- `paper-types.md`
+- `theory-to-design.md`
+- `section-skeleton.md`
 
 ## Main Output
 
@@ -39,4 +49,3 @@
 ## Remaining Gaps
 
 需补充正式文献依据和区域政策材料，并明确样本选择。
-

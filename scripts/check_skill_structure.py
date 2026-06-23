@@ -40,6 +40,7 @@ REQUIRED_DOCS = [
     "docs/review-2026-06-23-v0.4.md",
     "docs/review-2026-06-23-v1.0.md",
     "docs/review-2026-06-23-v1.1.md",
+    "docs/review-2026-06-23-v1.2.md",
     "docs/install-readiness-audit.md",
     "CHANGELOG.md",
 ]
@@ -73,6 +74,22 @@ REQUIRED_EXAMPLES = [
     "docs/examples/failure-cases/README.md",
 ]
 
+CASE_EXAMPLE_DIRS = [
+    "docs/examples/case-teacher-digital-competence",
+    "docs/examples/case-education-data-governance",
+    "docs/examples/case-human-ai-assessment",
+]
+
+CASE_REQUIRED_SUFFIXES = [
+    "01-governance-idea-evaluator-output.md",
+    "02-governance-paper-template-output.md",
+    "03-mixed-methods-evidence-output.md",
+    "04-edtech-intro-drafter-output.md",
+    "05-governance-figure-designer-output.md",
+    "06-edtech-pre-submission-review-output.md",
+    "07-ai-assisted-workflow-output.md",
+]
+
 
 def fail(msg: str) -> None:
     print(f"FAIL: {msg}")
@@ -96,8 +113,8 @@ def main() -> int:
         coverage_text = coverage.read_text(encoding="utf-8")
         if "pending" in coverage_text.lower():
             failures.append("coverage matrix still contains pending items")
-        if "V1.1" not in coverage_text:
-            failures.append("coverage matrix does not reflect V1.1 status")
+        if "V1.2" not in coverage_text:
+            failures.append("coverage matrix does not reflect V1.2 status")
 
     inventory = ROOT / "docs" / "chinese-core-literature-inventory.md"
     if inventory.exists():
@@ -113,9 +130,26 @@ def main() -> int:
     registry = ROOT / "docs" / "verified-source-registry.md"
     if registry.exists():
         registry_text = registry.read_text(encoding="utf-8")
-        for marker in ["NIST", "OECD", "DigCompEdu", "UNESCO"]:
+        for marker in ["NIST", "OECD", "DigCompEdu", "UNESCO", "Education Endowment Foundation", "What Works Clearinghouse"]:
             if marker not in registry_text:
                 failures.append(f"verified source registry lacks V1.1 source marker: {marker}")
+
+    for case_dir in CASE_EXAMPLE_DIRS:
+        folder = ROOT / case_dir
+        if not folder.exists():
+            failures.append(f"missing multi-case example directory: {case_dir}")
+            continue
+        for filename in CASE_REQUIRED_SUFFIXES:
+            path = folder / filename
+            if not path.exists():
+                failures.append(f"{case_dir}: missing seven-skill output {filename}")
+            else:
+                text = path.read_text(encoding="utf-8")
+                if len(text.strip().splitlines()) < 10:
+                    failures.append(f"{case_dir}: output too short {filename}")
+                for required in ["## Input Summary", "## Skill Invoked", "## References Used", "## Main Output"]:
+                    if required not in text:
+                        failures.append(f"{case_dir}/{filename}: lacks example protocol section {required}")
 
     failure_dir = ROOT / "docs" / "examples" / "failure-cases"
     if failure_dir.exists():

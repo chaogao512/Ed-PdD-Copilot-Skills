@@ -86,10 +86,11 @@ Ed-PdD-Copilot-Skills/
 - 已加入方法报告模板、设计科学研究报告模板和 filled examples。
 - 已加入已核验来源登记表：[`docs/verified-source-registry.md`](docs/verified-source-registry.md)。
 - 已完成安装前审计：[`docs/install-readiness-audit.md`](docs/install-readiness-audit.md)。
-- 已加入 V1.1 多案例验证材料：[`docs/cases/`](docs/cases/) 与多场景核心技能输出。
+- 已加入 V1.2 多案例全技能链验证材料：[`docs/cases/`](docs/cases/) 与多场景 7 技能链输出。
 - 已完成 V1.1 阶段评审：[`docs/review-2026-06-23-v1.1.md`](docs/review-2026-06-23-v1.1.md)。
+- 已完成 V1.2 阶段评审：[`docs/review-2026-06-23-v1.2.md`](docs/review-2026-06-23-v1.2.md)。
 
-下一阶段目标是 V1.1/V1.2：继续补充多场景真实案例、中文核心/CSSCI 文献核验、安装后前向测试和跨技能回归测试。具体路线见 [`docs/skill-improvement-task-list.md`](docs/skill-improvement-task-list.md)。
+下一阶段目标是 V1.3：继续推进中文核心/CSSCI 文献核验、安装后前向测试和样例字段级自动检查。具体路线见 [`docs/skill-improvement-task-list.md`](docs/skill-improvement-task-list.md)。
 
 ## 推荐使用路径
 

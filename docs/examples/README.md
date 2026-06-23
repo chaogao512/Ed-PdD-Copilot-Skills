@@ -18,9 +18,9 @@
 | Folder/File | Purpose |
 |---|---|
 | `01-...` to `07-...` | 主贯穿案例“多 Agent 高校智能校园治理机制研究”的 7 个技能输出 |
-| `case-teacher-digital-competence/` | 教师数字胜任力治理案例的核心技能链输出 |
-| `case-education-data-governance/` | 高校教育数据治理案例的核心技能链输出 |
-| `case-human-ai-assessment/` | 人机协同课堂评价案例的核心技能链输出 |
+| `case-teacher-digital-competence/` | 教师数字胜任力治理案例的 7 技能链输出 |
+| `case-education-data-governance/` | 高校教育数据治理案例的 7 技能链输出 |
+| `case-human-ai-assessment/` | 人机协同课堂评价案例的 7 技能链输出 |
 | `failure-cases/` | 用于测试技能是否识别低质量输入和研究设计风险 |
 
 ## Review Rule
@@ -33,3 +33,14 @@
 - 是否包含隐私、公平、人类监督和问责机制。
 - 是否能路由到下一步技能。
 
+## Seven-Skill Chain
+
+每个贯穿案例的完整输出应包含：
+
+1. `01-governance-idea-evaluator-output.md`
+2. `02-governance-paper-template-output.md`
+3. `03-mixed-methods-evidence-output.md`
+4. `04-edtech-intro-drafter-output.md`
+5. `05-governance-figure-designer-output.md`
+6. `06-edtech-pre-submission-review-output.md`
+7. `07-ai-assisted-workflow-output.md`

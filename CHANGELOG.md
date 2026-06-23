@@ -1,5 +1,14 @@
 # Changelog
 
+## V1.2 - 2026-06-23
+
+- Expanded the three V1.1 multi-case scenarios to full seven-skill chains.
+- Added Introduction, figure design, pre-submission review and AI-assisted workflow outputs for each new case.
+- Added EEF professional development guidance and WWC evidence standards to the verified source registry.
+- Updated evidence base, examples protocol and skill guide for seven-skill chain validation.
+- Strengthened structure checks to require seven outputs for each multi-case example folder.
+- Added V1.2 review report and unified example protocol checks for multi-case outputs.
+
 ## V1.1 - 2026-06-23
 
 - Added three multi-case validation scenarios: teacher digital competence governance, education data governance and human-AI classroom assessment governance.

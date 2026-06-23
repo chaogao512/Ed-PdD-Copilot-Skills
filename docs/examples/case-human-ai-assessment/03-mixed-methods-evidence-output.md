@@ -1,8 +1,21 @@
 # Human-AI Assessment Case: Evidence Design
 
+## Input Summary
+
+人机协同支持的课堂教学评价改进机制研究。
+
 ## Skill Invoked
 
 `mixed-methods-evidence-template`
+
+## References Used
+
+- `claim-evidence-matrix.md`
+- `quantitative-methods.md`
+- `qualitative-methods.md`
+- `triangulation.md`
+
+## Main Output
 
 ## Evidence Alignment Table
 
@@ -18,4 +31,3 @@
 - 视频、音频和行为数据必须最小化采集。
 - AI 评价不得自动用于学生排名或教师绩效。
 - 所有高影响判断必须可解释、可复核、可申诉。
-

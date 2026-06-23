@@ -1,8 +1,20 @@
 # Human-AI Assessment Case: Idea Evaluation
 
+## Input Summary
+
+人机协同支持的课堂教学评价改进机制研究。
+
 ## Skill Invoked
 
 `governance-idea-evaluator`
+
+## References Used
+
+- `fatal-flaws.md`
+- `rubric.md`
+- `theory-anchors.md`
+
+## Main Output
 
 ## Fatal-Flaws Audit
 
@@ -23,4 +35,3 @@
 ## Verdict
 
 `Proceed with strict ethics design`。下一步进入 `mixed-methods-evidence-template`，优先设计证据边界和伦理机制。
-

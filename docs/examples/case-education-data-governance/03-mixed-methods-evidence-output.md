@@ -1,8 +1,21 @@
 # Education Data Governance Case: Evidence Design
 
+## Input Summary
+
+高校教育数据治理能力建设与风险防控机制研究。
+
 ## Skill Invoked
 
 `mixed-methods-evidence-template`
+
+## References Used
+
+- `claim-evidence-matrix.md`
+- `qualitative-methods.md`
+- `triangulation.md`
+- `method-reporting-templates.md`
+
+## Main Output
 
 ## Evidence Alignment Table
 
@@ -18,4 +31,3 @@
 - 高风险数据应用需单独伦理审查。
 - 数据申请、审批、使用和删除必须可追溯。
 - 学生画像、预警和推荐必须保留人工解释和申诉渠道。
-

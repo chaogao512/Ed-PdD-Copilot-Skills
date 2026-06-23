@@ -1,8 +1,21 @@
 # Teacher Digital Competence Case: Evidence Design
 
+## Input Summary
+
+区域中小学教师数字胜任力提升的组织支持机制研究。
+
 ## Skill Invoked
 
 `mixed-methods-evidence-template`
+
+## References Used
+
+- `claim-evidence-matrix.md`
+- `quantitative-methods.md`
+- `qualitative-methods.md`
+- `triangulation.md`
+
+## Main Output
 
 ## Evidence Alignment Table
 
@@ -26,4 +39,3 @@
 ## Ethics Check
 
 教师数据只能用于研究和改进，不得反馈给学校作为排名或绩效依据。学生反馈需匿名。
-

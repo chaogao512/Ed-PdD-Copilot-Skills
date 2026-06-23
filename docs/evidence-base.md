@@ -15,6 +15,8 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 | OECD AI Principles | https://oecd.ai/en/ai-principles | Human-centred values, transparency, robustness, security, accountability |
 | European Commission, DigCompEdu | https://joint-research-centre.ec.europa.eu/digcompedu_en | Teacher digital competence, professional engagement, teaching and learning, assessment, learner empowerment |
 | UNESCO, Recommendation on the Ethics of Artificial Intelligence | https://www.unesco.org/en/artificial-intelligence/recommendation-ethics | AI ethics, accountability, transparency, human rights and fairness framing |
+| Education Endowment Foundation, *Effective Professional Development* | https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/effective-professional-development | Teacher professional development mechanisms, implementation and evidence for teacher learning |
+| What Works Clearinghouse Standards Handbook | https://ies.ed.gov/ncee/wwc/Handbooks | Evidence standards for education interventions and causal claim boundaries |
 
 ## Research Method Sources
 
@@ -80,3 +82,18 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 | Teacher digital competence | Training attendance is not competence; require classroom transfer, artifacts, reflection and professional support evidence |
 | Data governance and privacy | Data integration is not governance; require ownership, standards, quality, authorization, audit and retention rules |
 | Academic integrity | AI may assist search and formatting, but verified citations must come from traceable bibliographic sources |
+
+## V1.2 Additions
+
+- Expanded the three V1.1 cases from three core-skill outputs to full seven-skill chains.
+- Added Introduction, figure design, pre-submission review and AI-assisted workflow outputs for teacher digital competence governance, education data governance and human-AI classroom assessment.
+- Added EEF professional development and WWC evidence standards as source anchors for teacher development and causal-claim boundaries.
+- Strengthened project checks so each multi-case example folder must contain seven numbered skill outputs.
+
+## V1.2 Rule Translation
+
+| Source pattern | Skill rule |
+|---|---|
+| Professional development requires mechanisms and implementation | Teacher digital competence studies must connect training to classroom practice, feedback and organizational support |
+| Causal evidence standards | Do not claim intervention effectiveness from satisfaction surveys, descriptive data or single posttest evidence |
+| Full-chain case validation | A mature skill set should demonstrate idea evaluation, paper structure, method design, introduction, figure, review and AI workflow on the same case |

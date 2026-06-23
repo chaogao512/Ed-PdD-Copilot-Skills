@@ -1,8 +1,21 @@
 # Education Data Governance Case: Paper Skeleton
 
+## Input Summary
+
+高校教育数据治理能力建设与风险防控机制研究。
+
 ## Skill Invoked
 
 `governance-paper-template`
+
+## References Used
+
+- `paper-types.md`
+- `theory-to-design.md`
+- `dual-topology.md`
+- `section-skeleton.md`
+
+## Main Output
 
 ## Paper Type
 
@@ -33,4 +46,3 @@
 ## Quality Self-Check
 
 论文贡献落在制度和机制，不把平台建设当作治理本身。
-

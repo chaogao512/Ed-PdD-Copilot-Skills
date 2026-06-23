@@ -1,8 +1,18 @@
 # Education Data Governance Case: Idea Evaluation
 
+## Input Summary
+
+高校教育数据治理能力建设与风险防控机制研究。
+
 ## Skill Invoked
 
 `governance-idea-evaluator`
+
+## References Used
+
+- `fatal-flaws.md`
+- `rubric.md`
+- `theory-anchors.md`
 
 ## Main Output
 
@@ -31,4 +41,3 @@
 ## Remaining Gaps
 
 必须明确数据类型、授权流程、样本高校和高风险应用边界。
-

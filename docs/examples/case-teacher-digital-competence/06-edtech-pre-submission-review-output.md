@@ -1,0 +1,43 @@
+# Teacher Digital Competence Case: Pre-Submission Review
+
+## Input Summary
+
+审查一篇关于区域教师数字胜任力组织支持机制的拟投稿论文。
+
+## Skill Invoked
+
+`edtech-pre-submission-reviewer`
+
+## References Used
+
+- `review-rubric.md`
+- `theory-policy-checklist.md`
+- `method-evidence-checklist.md`
+- `ethics-data-governance.md`
+
+## Main Output
+
+## Overall Verdict
+
+`Major revision before submission`。选题具有教育技术和教育管理交叉价值，但必须避免将教师数字胜任力简化为培训参与度或平台数据。
+
+## Findings
+
+| Severity | Finding | Repair |
+|---|---|---|
+| MAJOR | 教师数字胜任力概念需要明确，不应等同于工具熟练度 | 采用教师数字能力框架，区分专业参与、资源使用、教学实施、评价和学生赋能 |
+| MAJOR | 组织支持机制需要可操作化 | 将领导支持、资源支持、同伴支持、时间保障和反馈机制转为指标 |
+| MAJOR | 证据链不足以证明教学改进 | 增加教学设计材料、课堂观察、教师反思和学生反馈 |
+| MINOR | 政策背景可能口号化 | 将政策要求转译为教师发展、资源配置和持续改进需求 |
+
+## 72-Hour Fix Plan
+
+1. 明确核心概念和理论框架。
+2. 将组织支持机制转为维度表。
+3. 增加一张“研究问题-证据-方法-结论边界”表。
+4. 增加教师数据不用于绩效排名的伦理说明。
+
+## Remaining Gaps
+
+正式投稿前还需核验中文教师数字素养与教师专业发展文献。
+
