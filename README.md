@@ -72,7 +72,7 @@ Ed-PdD-Copilot-Skills/
 
 ## 当前成熟度
 
-当前版本为 **V0.6 文献 inventory 与方法示例增强版**：
+当前版本为 **V1.0 安装前可用版**：
 
 - 7 个技能均已具备 `SKILL.md`、`agents/openai.yaml` 和 `references/` 支撑文件。
 - 已建立外部依据清单：[`docs/evidence-base.md`](docs/evidence-base.md)。
@@ -82,9 +82,14 @@ Ed-PdD-Copilot-Skills/
 - 已加入失败案例回测：[`docs/examples/failure-cases/`](docs/examples/failure-cases/)。
 - 已加入文献地图：[`docs/literature-map-edtech-governance.md`](docs/literature-map-edtech-governance.md)。
 - 已加入中文核心文献 inventory：[`docs/chinese-core-literature-inventory.md`](docs/chinese-core-literature-inventory.md)。
+- 已建立中文核心文献正式核验登记模板：[`docs/chinese-core-literature-verified.md`](docs/chinese-core-literature-verified.md)。
 - 已加入方法报告模板、设计科学研究报告模板和 filled examples。
+- 已加入已核验来源登记表：[`docs/verified-source-registry.md`](docs/verified-source-registry.md)。
+- 已完成安装前审计：[`docs/install-readiness-audit.md`](docs/install-readiness-audit.md)。
+- 已加入 V1.1 多案例验证材料：[`docs/cases/`](docs/cases/) 与多场景核心技能输出。
+- 已完成 V1.1 阶段评审：[`docs/review-2026-06-23-v1.1.md`](docs/review-2026-06-23-v1.1.md)。
 
-下一阶段目标是 V1.0：继续补充更多真实案例、中文教育技术文献依据、结构检查自动化和跨技能回归测试。
+下一阶段目标是 V1.1/V1.2：继续补充多场景真实案例、中文核心/CSSCI 文献核验、安装后前向测试和跨技能回归测试。具体路线见 [`docs/skill-improvement-task-list.md`](docs/skill-improvement-task-list.md)。
 
 ## 推荐使用路径
 

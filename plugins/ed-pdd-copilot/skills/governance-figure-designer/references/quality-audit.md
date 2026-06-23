@@ -16,3 +16,23 @@ Check every proposed figure:
 - CRITICAL: no human oversight in a high-stakes AI education diagram.
 - MAJOR: actor roles or accountability are unclear.
 - MINOR: labels are too technical or caption is descriptive only.
+
+## Scenario-Specific Figure Checks
+
+### Teacher Digital Competence
+
+- Show region, school,教研 group and teacher as different actors.
+- Separate training input, classroom transfer, peer feedback and continuous improvement.
+- Avoid showing teachers as passive recipients of technology.
+
+### Education Data Governance
+
+- Show data owner, data steward, data user, data subject and oversight body.
+- Distinguish data flow from authorization flow and accountability flow.
+- Include risk review, audit trail, retention/deletion and appeal/correction routes.
+
+### Human-AI Assessment
+
+- Show AI suggestion as intermediate evidence, not final judgment.
+- Include teacher interpretation, student explanation, appeal and instructional improvement.
+- Distinguish feedback for learning from accountability or ranking uses.

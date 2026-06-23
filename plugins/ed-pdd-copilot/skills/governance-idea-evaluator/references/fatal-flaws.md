@@ -14,3 +14,13 @@ Run this before scoring. A CRITICAL flaw short-circuits the evaluation and retur
 | Data access fantasy | MAJOR | Does the idea assume clean cross-department data that the institution does not have? | Add data governance and staged pilot plan. |
 | Equity blind spot | MAJOR | Could the system amplify differences across teachers, majors, regions or student groups? | Add fairness analysis and subgroup interpretation. |
 | Tool dependency without durability | MINOR/MAJOR | Is the contribution tied to a product or model version? | Elevate to mechanism, architecture or governance principle. |
+
+## Additional V1.1 Failure Patterns
+
+| Flaw | Severity | Detection question | Repair strategy |
+|---|---|---|---|
+| Privacy blindness | CRITICAL | Does the study collect identifiable, multimodal or sensitive learner/teacher data without consent, minimization, retention and access rules? | Redesign the data plan; minimize data, desensitize records, obtain authorization, define retention, and add human review and appeal. |
+| Automated high-stakes judgment | CRITICAL | Does an AI output directly affect evaluation, warning, punishment, resource allocation or teacher appraisal? | Convert AI output into a decision-support signal requiring human interpretation, explanation, override and appeal. |
+| Competence equals training hours | MAJOR | Does the study treat platform completion, login counts or certificate numbers as digital competence? | Add performance tasks, teaching artifacts, self-reflection, peer review and classroom transfer evidence. |
+| Data platform equals data governance | MAJOR | Does the proposal assume that building a data center solves governance problems? | Add data ownership, standards, quality, lifecycle, authorization, audit and risk governance mechanisms. |
+| Satisfaction equals effectiveness | CRITICAL/MAJOR | Does the study use satisfaction alone to claim learning, teaching or governance improvement? | Downgrade the claim or add outcome, process, behavioral and qualitative evidence. |

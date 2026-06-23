@@ -30,9 +30,17 @@ REQUIRED_DOCS = [
     "docs/evidence-base.md",
     "docs/literature-map-edtech-governance.md",
     "docs/chinese-core-literature-inventory.md",
+    "docs/chinese-core-literature-verified.md",
+    "docs/verified-source-registry.md",
     "docs/skill-coverage-matrix.md",
     "docs/case-multi-agent-smart-campus.md",
+    "docs/cases/case-teacher-digital-competence-governance.md",
+    "docs/cases/case-education-data-governance.md",
+    "docs/cases/case-human-ai-assessment-governance.md",
     "docs/review-2026-06-23-v0.4.md",
+    "docs/review-2026-06-23-v1.0.md",
+    "docs/review-2026-06-23-v1.1.md",
+    "docs/install-readiness-audit.md",
     "CHANGELOG.md",
 ]
 
@@ -44,10 +52,24 @@ REQUIRED_EXAMPLES = [
     "docs/examples/05-governance-figure-designer-output.md",
     "docs/examples/06-edtech-pre-submission-review-output.md",
     "docs/examples/07-ai-assisted-workflow-output.md",
+    "docs/examples/README.md",
+    "docs/examples/case-teacher-digital-competence/01-governance-idea-evaluator-output.md",
+    "docs/examples/case-teacher-digital-competence/02-governance-paper-template-output.md",
+    "docs/examples/case-teacher-digital-competence/03-mixed-methods-evidence-output.md",
+    "docs/examples/case-education-data-governance/01-governance-idea-evaluator-output.md",
+    "docs/examples/case-education-data-governance/02-governance-paper-template-output.md",
+    "docs/examples/case-education-data-governance/03-mixed-methods-evidence-output.md",
+    "docs/examples/case-human-ai-assessment/01-governance-idea-evaluator-output.md",
+    "docs/examples/case-human-ai-assessment/02-governance-paper-template-output.md",
+    "docs/examples/case-human-ai-assessment/03-mixed-methods-evidence-output.md",
     "docs/examples/failure-cases/01-technology-first-idea.md",
     "docs/examples/failure-cases/02-evidence-mismatch.md",
     "docs/examples/failure-cases/03-decorative-theory.md",
     "docs/examples/failure-cases/04-policy-sloganization.md",
+    "docs/examples/failure-cases/05-privacy-blindness.md",
+    "docs/examples/failure-cases/06-overclaimed-causality.md",
+    "docs/examples/failure-cases/07-ai-fabricated-citation.md",
+    "docs/examples/failure-cases/08-incoherent-governance-figure.md",
     "docs/examples/failure-cases/README.md",
 ]
 
@@ -74,6 +96,8 @@ def main() -> int:
         coverage_text = coverage.read_text(encoding="utf-8")
         if "pending" in coverage_text.lower():
             failures.append("coverage matrix still contains pending items")
+        if "V1.1" not in coverage_text:
+            failures.append("coverage matrix does not reflect V1.1 status")
 
     inventory = ROOT / "docs" / "chinese-core-literature-inventory.md"
     if inventory.exists():
@@ -85,6 +109,24 @@ def main() -> int:
             failures.append("Chinese literature inventory has fewer than 20 numbered entries")
         if "needs_cnki_verification" not in inventory_text:
             failures.append("Chinese literature inventory lacks verification-status labeling")
+
+    registry = ROOT / "docs" / "verified-source-registry.md"
+    if registry.exists():
+        registry_text = registry.read_text(encoding="utf-8")
+        for marker in ["NIST", "OECD", "DigCompEdu", "UNESCO"]:
+            if marker not in registry_text:
+                failures.append(f"verified source registry lacks V1.1 source marker: {marker}")
+
+    failure_dir = ROOT / "docs" / "examples" / "failure-cases"
+    if failure_dir.exists():
+        failure_cases = sorted(path for path in failure_dir.glob("*.md") if path.name != "README.md")
+        if len(failure_cases) < 8:
+            failures.append("failure-case regression set has fewer than 8 cases")
+        for path in failure_cases:
+            text = path.read_text(encoding="utf-8")
+            for required in ["## Weak input", "## Expected skill response", "## Expected diagnosis", "## Required repair"]:
+                if required not in text:
+                    failures.append(f"{path.relative_to(ROOT)} lacks required section: {required}")
 
     for skill, refs in sorted(REQUIRED_REFERENCE_HINTS.items()):
         folder = SKILLS / skill

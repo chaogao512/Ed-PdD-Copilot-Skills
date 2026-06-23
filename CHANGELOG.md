@@ -1,5 +1,22 @@
 # Changelog
 
+## V1.1 - 2026-06-23
+
+- Added three multi-case validation scenarios: teacher digital competence governance, education data governance and human-AI classroom assessment governance.
+- Added nine core-skill example outputs for the three new cases.
+- Added failure cases for privacy blindness, causal overclaiming and fabricated AI citations.
+- Expanded references for AI risk governance, teacher competence evidence, data governance, human-AI assessment and source verification.
+- Added NIST AI RMF, OECD AI Principles, DigCompEdu and UNESCO AI ethics recommendation to the verified source registry.
+- Added V1.1 review report and Chinese core literature verified-registry template.
+- Strengthened structure checker for V1.1 cases, examples, sources and failure-case fields.
+
+## V1.0 - 2026-06-23
+
+- Added `docs/verified-source-registry.md` to separate verified sources from candidate Chinese literature targets.
+- Added `docs/install-readiness-audit.md`.
+- Added `docs/review-2026-06-23-v1.0.md`.
+- Marked the repository as install-ready while preserving the boundary that unverified Chinese core-journal records remain search targets, not formal citations.
+
 ## V0.6 - 2026-06-23
 
 - Added `docs/chinese-core-literature-inventory.md` with 28 traceable policy, method and Chinese EdTech literature target entries.

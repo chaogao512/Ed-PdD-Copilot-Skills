@@ -59,3 +59,15 @@
 仓库使用“基于多 Agent 的高校智能校园治理机制研究”作为测试案例，见 [`../../../docs/case-multi-agent-smart-campus.md`](../../../docs/case-multi-agent-smart-campus.md)。
 
 对应的 7 个技能样例输出保存在 [`../../../docs/examples/`](../../../docs/examples/)。这些样例用于检查技能之间的概念一致性、理论一致性、证据边界和伦理边界。
+
+## V1.1 多案例验证
+
+除主案例外，仓库新增三个治理场景用于检验技能迁移能力：
+
+| Case | 用途 | 示例输出 |
+|---|---|---|
+| 教师数字胜任力治理 | 检验技能是否能把教师能力提升从培训问题转为组织支持机制问题 | `docs/examples/case-teacher-digital-competence/` |
+| 高校教育数据治理 | 检验技能是否能区分数据平台建设与数据治理能力建设 | `docs/examples/case-education-data-governance/` |
+| 人机协同课堂评价 | 检验技能是否能处理 AI 评价、教师判断、学生权益和形成性评价之间的关系 | `docs/examples/case-human-ai-assessment/` |
+
+新增案例优先跑通三个核心技能：`governance-idea-evaluator`、`governance-paper-template`、`mixed-methods-evidence-template`。后续可继续扩展到引言、图示、投稿审查和 AI 辅助研究流程。

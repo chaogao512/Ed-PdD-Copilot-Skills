@@ -19,10 +19,12 @@ Each failure case should include:
 | `02-evidence-mismatch.md` | `mixed-methods-evidence-template`, `edtech-pre-submission-reviewer` | CRITICAL | Do not accept technical metrics as proof of education or governance value |
 | `03-decorative-theory.md` | `governance-paper-template` | MAJOR | Do not let theory remain a label without design consequences |
 | `04-policy-sloganization.md` | `edtech-intro-drafter`, `edtech-pre-submission-reviewer` | MAJOR | Do not accept policy slogans without concrete governance contradiction |
+| `05-privacy-blindness.md` | `governance-idea-evaluator`, `mixed-methods-evidence-template`, `edtech-pre-submission-reviewer` | CRITICAL | Do not accept high-risk student profiling without data governance and human review |
+| `06-overclaimed-causality.md` | `mixed-methods-evidence-template`, `edtech-pre-submission-reviewer` | CRITICAL | Do not infer teaching quality improvement from satisfaction data |
+| `07-ai-fabricated-citation.md` | `ai-assisted-edtech-research-workflow`, `edtech-pre-submission-reviewer` | CRITICAL | Do not fabricate references or treat unverified candidates as citations |
+| `08-incoherent-governance-figure.md` | `governance-figure-designer`, `edtech-pre-submission-reviewer` | CRITICAL | Do not draw high-risk education AI diagrams without oversight, accountability and appeal |
 
 ## Future Test Expansion
 
-- Add privacy failure case.
 - Add teacher digital fatigue failure case.
-- Add overclaimed causal conclusion failure case.
-- Add fabricated citation / AI misconduct case.
+- Add invalid indicator-system construction failure case.

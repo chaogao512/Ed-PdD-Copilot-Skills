@@ -11,6 +11,10 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 | European Commission, *Ethical guidelines on the use of AI and data in teaching and learning for educators* | https://education.ec.europa.eu/news/ethical-guidelines-on-the-use-of-artificial-intelligence-and-data-in-teaching-and-learning-for-educators | Ethical AI use in school education, educator awareness, school-leader guidance, AI/data misconceptions |
 | U.S. Department of Education, *Artificial Intelligence and the Future of Teaching and Learning* | https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf | Human in the loop, explainable/overridable AI, educator-centred loops, equity, safety, transparency, trust |
 | Regulation (EU) 2024/1689, Artificial Intelligence Act | https://data.europa.eu/eli/reg/2024/1689/oj | Risk-based AI governance, high-risk education uses, human oversight, transparency, quality and safety obligations |
+| NIST, *AI Risk Management Framework* | https://www.nist.gov/itl/ai-risk-management-framework | AI risk governance cycle, risk identification, measurement, management and monitoring |
+| OECD AI Principles | https://oecd.ai/en/ai-principles | Human-centred values, transparency, robustness, security, accountability |
+| European Commission, DigCompEdu | https://joint-research-centre.ec.europa.eu/digcompedu_en | Teacher digital competence, professional engagement, teaching and learning, assessment, learner empowerment |
+| UNESCO, Recommendation on the Ethics of Artificial Intelligence | https://www.unesco.org/en/artificial-intelligence/recommendation-ethics | AI ethics, accountability, transparency, human rights and fairness framing |
 
 ## Research Method Sources
 
@@ -28,6 +32,7 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 | `docs/paper-template-adaptation-plan.md` | Local project document | Introduction logic, paper template adaptation, figure design and mixed-methods evidence logic |
 | `docs/literature-map-edtech-governance.md` | Local project document | Working map of EdTech governance literature themes, policy anchors, method sources and translation into skill patterns |
 | `docs/chinese-core-literature-inventory.md` | Local project document | Traceable inventory of policy sources, local plan references, method sources and Chinese EdTech literature search targets |
+| `docs/verified-source-registry.md` | Local project document | Separates currently verified usable sources from candidate sources requiring CNKI or journal-site verification |
 
 ## Translation Into Skill Rules
 
@@ -50,3 +55,28 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 - Added Chinese EdTech governance literature inventory with verification status labels.
 - Added filled examples for Delphi, questionnaire, interview, log-data and DSR reporting.
 - Added failure case regression protocol.
+
+## V1.0 Additions
+
+- Added verified source registry.
+- Added install readiness audit.
+- Added final V1.0 review.
+- Kept unverified Chinese core-journal entries out of formal citation use.
+
+## V1.1 Additions
+
+- Added three additional governance cases: teacher digital competence governance, education data governance and human-AI classroom assessment governance.
+- Added nine new core-skill example outputs across the three cases.
+- Added failure cases for privacy blindness, causal overclaiming and fabricated AI citations.
+- Expanded skill references with rules for AI risk governance, teacher competence evidence, education data governance, human-AI formative assessment and source verification.
+- Updated source registry with NIST AI RMF, OECD AI Principles, DigCompEdu and UNESCO AI ethics recommendation.
+
+## V1.1 Rule Translation
+
+| Source pattern | Skill rule |
+|---|---|
+| Human-centred AI and oversight | AI suggestions in education must remain reviewable, explainable and overridable by responsible humans |
+| Risk management lifecycle | Education AI studies should identify context, affected groups, risks, safeguards, monitoring and incident response |
+| Teacher digital competence | Training attendance is not competence; require classroom transfer, artifacts, reflection and professional support evidence |
+| Data governance and privacy | Data integration is not governance; require ownership, standards, quality, authorization, audit and retention rules |
+| Academic integrity | AI may assist search and formatting, but verified citations must come from traceable bibliographic sources |
