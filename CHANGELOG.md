@@ -1,5 +1,13 @@
 # Changelog
 
+## V1.4 - 2026-06-23
+
+- Verified four Chinese official policy, standard and platform sources through direct URL/title checks.
+- Added Chinese official sources to `docs/chinese-core-literature-verified.md`, `docs/verified-source-registry.md` and `docs/evidence-base.md`.
+- Added Chinese policy translation rules to introduction, policy review, indicator-system and platform-governance references.
+- Strengthened structure checks for Chinese verified source markers.
+- Added V1.4 review report.
+
 ## V1.3 - 2026-06-23
 
 - Unified the main smart-campus example outputs with the same example protocol fields used by multi-case outputs.

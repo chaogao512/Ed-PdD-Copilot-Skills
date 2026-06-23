@@ -24,3 +24,13 @@ A governance architecture should show both technical layers and organizational a
 ## Anti-pattern
 
 A diagram with only “data -> model -> output” is insufficient for education governance.
+
+## Chinese Platform-Governance Boundary
+
+When using national or institutional smart education platforms as context:
+
+- Treat platforms as infrastructure and resource ecology, not as governance capability by themselves.
+- Add organizational responsibility: who sets rules, who validates data, who interprets outputs, who handles appeals.
+- Add data governance: ownership, authorization, standards, quality, retention and deletion.
+- Add evidence boundary: platform visits, resource counts or dashboard screenshots show use or availability, not educational or governance effectiveness.
+- Add policy translation: connect platform construction to concrete improvement processes such as teacher support, student support, quality assurance or cross-department coordination.

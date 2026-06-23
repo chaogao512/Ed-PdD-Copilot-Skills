@@ -17,6 +17,10 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 | UNESCO, Recommendation on the Ethics of Artificial Intelligence | https://www.unesco.org/en/artificial-intelligence/recommendation-ethics | AI ethics, accountability, transparency, human rights and fairness framing |
 | Education Endowment Foundation, *Effective Professional Development* | https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/effective-professional-development | Teacher professional development mechanisms, implementation and evidence for teacher learning |
 | What Works Clearinghouse Standards Handbook | https://ies.ed.gov/ncee/wwc/Handbooks | Evidence standards for education interventions and causal claim boundaries |
+| 教育部, 《教育信息化2.0行动计划》通知 | http://www.moe.gov.cn/srcsite/A16/s3342/201804/t20180425_334188.html | Chinese education informatization policy background and digital governance requirements |
+| 教育部, 《教师数字素养》教育行业标准发布通知 | http://www.moe.gov.cn/srcsite/A16/s3342/202302/t20230214_1044634.html | Teacher digital literacy/competence standard alignment |
+| 中共中央、国务院, 《教育强国建设规划纲要（2024－2035年）》 | https://www.gov.cn/zhengce/202501/content_6999913.htm | Education strong nation, digital education and governance modernization framing |
+| 国家智慧教育公共服务平台 | https://www.smartedu.cn/ | National smart education platform context and platform-governance distinction |
 
 ## Research Method Sources
 
@@ -111,3 +115,18 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 | Progressive disclosure | Installation readiness should verify skill metadata, reference routing and output formats before installation |
 | Regression examples | A mature skill should be checked against positive cases and failure cases, not only folder existence |
 | Environment safety | Installation-forward testing can be simulated before changing a user's active local skill environment |
+
+## V1.4 Additions
+
+- Verified four Chinese official sources through direct URL access and page-title/H1 checks.
+- Added Chinese policy and standard sources to `docs/chinese-core-literature-verified.md` while keeping unverified Chinese journal candidates separate.
+- Updated source registry to distinguish Chinese official sources from still-unverified CSSCI/core-journal literature.
+
+## V1.4 Rule Translation
+
+| Source pattern | Skill rule |
+|---|---|
+| Education informatization policy | Policy language must be translated into concrete governance requirements rather than slogans |
+| Teacher digital literacy standard | Teacher digital competence claims need standard-aligned dimensions and classroom-transfer evidence |
+| Education strong nation plan | Digital education should be framed as governance modernization and quality development, not tool adoption alone |
+| National smart education platform | Platform construction is context, not proof of governance capability |

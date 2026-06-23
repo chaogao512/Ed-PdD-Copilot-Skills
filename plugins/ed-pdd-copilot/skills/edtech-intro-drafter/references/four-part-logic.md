@@ -6,6 +6,17 @@ Use this structure for education technology and governance papers.
 
 Do not quote policy as decoration. Translate the policy environment into a concrete institutional demand: governance modernization, data-driven improvement, inclusive access, quality assurance, AI safety or teacher capacity building.
 
+## Chinese policy anchors
+
+Use verified Chinese policy sources as analytical anchors, not as slogans:
+
+| Source | How to translate into research demand |
+|---|---|
+| 《教育信息化2.0行动计划》 | Translate informatization into concrete demands such as digital resource integration, data-enabled improvement, teacher capacity and governance modernization. |
+| 《教师数字素养》教育行业标准发布通知 | Translate teacher digital literacy into measurable teacher competence dimensions and classroom-transfer evidence. |
+| 《教育强国建设规划纲要（2024－2035年）》 | Translate education-strong-nation discourse into quality development, digital education, governance modernization and equity-oriented support. |
+| 国家智慧教育公共服务平台 | Use as platform context, but do not treat platform existence as proof of governance effectiveness. |
+
 ## 2. Technology-enabled possibility
 
 State technology affordances as conditional possibilities: integration, diagnosis, recommendation, coordination, formative feedback, simulation or decision support. Avoid claiming proven impact before evidence is introduced.

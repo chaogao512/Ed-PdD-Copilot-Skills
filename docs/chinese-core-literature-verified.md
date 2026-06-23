@@ -1,7 +1,7 @@
 # Chinese Core Literature Verified Registry
 
-> 目的：本文件用于登记已经完成题录核验的中文核心/CSSCI/教育技术权威期刊文献。  
-> 当前状态：V1.1 阶段先建立核验规范和登记模板，不把未核验候选文献写成正式引用。  
+> 目的：本文件用于登记已经完成题录核验的中文核心/CSSCI/教育技术权威期刊文献，以及可追溯的中文官方政策、标准与平台来源。  
+> 当前状态：V1.4 阶段已先完成一批中文官方政策/标准来源核验；中文核心/CSSCI 论文仍需继续通过 CNKI、期刊官网或本地 PDF 核验。  
 > 来源候选：`docs/chinese-core-literature-inventory.md`。
 
 ## Verification Rule
@@ -32,7 +32,19 @@
 
 | ID | Authors | Year | Title | Source | Volume/Issue/Pages | DOI/CNKI URL | Verification source | Skill mapping | Notes |
 |---:|---|---:|---|---|---|---|---|---|---|
-|  |  |  |  |  |  |  |  |  |  |
+| 1 | 教育部 | 2018 | 教育部关于印发《教育信息化2.0行动计划》的通知 | 中华人民共和国教育部政府门户网站 | 教技〔2018〕6号 | http://www.moe.gov.cn/srcsite/A16/s3342/201804/t20180425_334188.html | 教育部网页标题与正文关键词核验 | `edtech-intro-drafter`, `governance-paper-template`, `edtech-pre-submission-reviewer` | 用于政策背景、教育数字化治理要求；非期刊论文 |
+| 2 | 教育部 | 2023 | 教育部关于发布《教师数字素养》教育行业标准的通知 | 中华人民共和国教育部政府门户网站 | 教师函〔2023〕2号 | http://www.moe.gov.cn/srcsite/A16/s3342/202302/t20230214_1044634.html | 教育部网页标题与正文关键词核验 | `governance-idea-evaluator`, `mixed-methods-evidence-template`, teacher digital competence cases | 用于教师数字胜任力/素养维度与证据边界；非期刊论文 |
+| 3 | 中共中央、国务院 | 2025 | 教育强国建设规划纲要（2024－2035年） | 中国政府网 | 中央文件 | https://www.gov.cn/zhengce/202501/content_6999913.htm | 中国政府网页标题与正文关键词核验 | `edtech-intro-drafter`, `governance-paper-template`, policy framing | 用于教育强国与教育数字化战略背景；非期刊论文 |
+| 4 | 国家智慧教育公共服务平台 | 2022 | 国家智慧教育公共服务平台 | 国家智慧教育公共服务平台 | Web platform | https://www.smartedu.cn/ | 页面标题核验 | `governance-paper-template`, `governance-figure-designer`, smart campus cases | 用于平台语境与案例背景；不作为学术论文引用 |
+
+## Verified Chinese Policy and Standard Sources
+
+| ID | Source type | Verified title | URL | How verified | Skill use |
+|---:|---|---|---|---|---|
+| P1 | 教育部政策文件 | 教育部关于印发《教育信息化2.0行动计划》的通知 | http://www.moe.gov.cn/srcsite/A16/s3342/201804/t20180425_334188.html | HTTP 200；页面标题和 H1 均匹配 | 政策背景、数字化治理需求、投稿前政策审查 |
+| P2 | 教育行业标准发布通知 | 教育部关于发布《教师数字素养》教育行业标准的通知 | http://www.moe.gov.cn/srcsite/A16/s3342/202302/t20230214_1044634.html | HTTP 200；页面标题和 H1 均匹配 | 教师数字胜任力、教师发展证据、能力指标 |
+| P3 | 中央政策文件 | 中共中央 国务院印发《教育强国建设规划纲要（2024－2035年）》 | https://www.gov.cn/zhengce/202501/content_6999913.htm | HTTP 200；页面标题和 H1 均匹配 | 教育强国、教育数字化、治理现代化背景 |
+| P4 | 国家级平台 | 国家智慧教育公共服务平台 | https://www.smartedu.cn/ | HTTP 200；页面 title 匹配 | 智慧教育平台语境、平台建设与治理能力区分 |
 
 ## Migration Workflow
 
@@ -41,6 +53,18 @@
 3. 若元数据完整，复制到 `Verified Entries`。
 4. 在 `docs/verified-source-registry.md` 中增加来源说明，或在 `docs/evidence-base.md` 中增加规则映射。
 5. 若无法核验，保留在 inventory，不进入正式引用。
+
+## Current Unverified Academic Targets
+
+以下主题仍未进入 `Verified Entries` 的“学术论文”部分：
+
+- 智慧教育 / 智能教育理论框架。
+- 教育数字化转型与教育治理。
+- 学习分析与教育数据伦理。
+- 教育数据治理、数据安全、数据伦理 CSSCI 文献。
+- 人机协同评价与课堂质量评价核心期刊文献。
+
+这些主题需要 CNKI、期刊官网、DOI 页面或本地 PDF 的题录核验后才能作为正式学术引用使用。
 
 ## Use Boundary
 
@@ -55,4 +79,3 @@
 - 伪造不存在的文献。
 - 用未核验候选替代正式引用。
 - 为了凑数量而加入主题不相关文献。
-

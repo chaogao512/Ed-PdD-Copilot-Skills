@@ -42,6 +42,7 @@ REQUIRED_DOCS = [
     "docs/review-2026-06-23-v1.1.md",
     "docs/review-2026-06-23-v1.2.md",
     "docs/review-2026-06-23-v1.3.md",
+    "docs/review-2026-06-23-v1.4.md",
     "docs/install-readiness-audit.md",
     "docs/install-forward-test.md",
     "CHANGELOG.md",
@@ -125,8 +126,8 @@ def main() -> int:
         coverage_text = coverage.read_text(encoding="utf-8")
         if "pending" in coverage_text.lower():
             failures.append("coverage matrix still contains pending items")
-        if "V1.3" not in coverage_text:
-            failures.append("coverage matrix does not reflect V1.3 status")
+        if "V1.4" not in coverage_text:
+            failures.append("coverage matrix does not reflect V1.4 status")
 
     inventory = ROOT / "docs" / "chinese-core-literature-inventory.md"
     if inventory.exists():
@@ -142,9 +143,33 @@ def main() -> int:
     registry = ROOT / "docs" / "verified-source-registry.md"
     if registry.exists():
         registry_text = registry.read_text(encoding="utf-8")
-        for marker in ["NIST", "OECD", "DigCompEdu", "UNESCO", "Education Endowment Foundation", "What Works Clearinghouse"]:
+        for marker in [
+            "NIST",
+            "OECD",
+            "DigCompEdu",
+            "UNESCO",
+            "Education Endowment Foundation",
+            "What Works Clearinghouse",
+            "教育信息化2.0",
+            "教师数字素养",
+            "教育强国建设规划纲要",
+            "国家智慧教育公共服务平台",
+        ]:
             if marker not in registry_text:
-                failures.append(f"verified source registry lacks V1.1 source marker: {marker}")
+                failures.append(f"verified source registry lacks required source marker: {marker}")
+
+    verified_cn = ROOT / "docs" / "chinese-core-literature-verified.md"
+    if verified_cn.exists():
+        verified_text = verified_cn.read_text(encoding="utf-8")
+        for marker in ["教育信息化2.0", "教师数字素养", "教育强国建设规划纲要", "国家智慧教育公共服务平台"]:
+            if marker not in verified_text:
+                failures.append(f"Chinese verified registry lacks source marker: {marker}")
+        verified_rows = [
+            line for line in verified_text.splitlines()
+            if line.startswith("| ") and line.split("|")[1].strip().isdigit()
+        ]
+        if len(verified_rows) < 4:
+            failures.append("Chinese verified registry has fewer than 4 verified source rows")
 
     for case_dir in CASE_EXAMPLE_DIRS:
         folder = ROOT / case_dir

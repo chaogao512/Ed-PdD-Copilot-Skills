@@ -22,6 +22,10 @@
 | 14 | UNESCO, Recommendation on the Ethics of Artificial Intelligence | International ethics recommendation | https://www.unesco.org/en/artificial-intelligence/recommendation-ethics | Human rights, transparency, accountability, fairness and governance framing for AI |
 | 15 | Education Endowment Foundation, *Effective Professional Development* | Evidence guidance | https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/effective-professional-development | Teacher professional development design, implementation and mechanism evidence |
 | 16 | What Works Clearinghouse Standards Handbook | Evidence standard | https://ies.ed.gov/ncee/wwc/Handbooks | Education intervention evidence, causal claims, study quality and evidence boundaries |
+| 17 | 教育部, 《教育信息化2.0行动计划》通知 | Chinese official policy | http://www.moe.gov.cn/srcsite/A16/s3342/201804/t20180425_334188.html | Chinese policy framing for education informatization and digital governance |
+| 18 | 教育部, 《教师数字素养》教育行业标准发布通知 | Chinese official standard notice | http://www.moe.gov.cn/srcsite/A16/s3342/202302/t20230214_1044634.html | Teacher digital literacy/competence framing and evidence design |
+| 19 | 中共中央、国务院, 《教育强国建设规划纲要（2024－2035年）》 | Chinese central policy | https://www.gov.cn/zhengce/202501/content_6999913.htm | Education strong nation, digital education and governance modernization background |
+| 20 | 国家智慧教育公共服务平台 | Chinese national platform | https://www.smartedu.cn/ | Smart education platform context; distinguish platform construction from governance capability |
 
 ## Candidate Sources Not Used as Formal Citations
 
@@ -46,3 +50,9 @@ When adding a source-based rule to a skill:
 - EEF professional development guidance supports the teacher digital competence case by emphasizing that teacher learning should connect mechanisms, practice, feedback and implementation rather than simple training attendance.
 - WWC evidence standards support the mixed-methods and pre-submission rules that causal claims require stronger designs than satisfaction surveys or one-shot posttests.
 - These sources are used to strengthen evidence-boundary rules, not to replace field-specific Chinese literature that still requires verification.
+
+## V1.4 Source-Use Notes
+
+- Chinese official sources 17-20 were verified through direct URL access, page title/H1 checks and keyword checks.
+- These sources may support policy framing, standard alignment and platform-context rules.
+- They are not substitutes for Chinese CSSCI/core-journal academic literature; journal articles still require CNKI, journal-site, DOI or local-PDF verification.

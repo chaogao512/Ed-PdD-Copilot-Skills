@@ -90,8 +90,9 @@ Ed-PdD-Copilot-Skills/
 - 已完成 V1.1 阶段评审：[`docs/review-2026-06-23-v1.1.md`](docs/review-2026-06-23-v1.1.md)。
 - 已完成 V1.2 阶段评审：[`docs/review-2026-06-23-v1.2.md`](docs/review-2026-06-23-v1.2.md)。
 - 已完成安装前向模拟测试：[`docs/install-forward-test.md`](docs/install-forward-test.md)。
+- 已完成 V1.4 中文政策证据增强评审：[`docs/review-2026-06-23-v1.4.md`](docs/review-2026-06-23-v1.4.md)。
 
-下一阶段目标是 V1.4：继续推进中文核心/CSSCI 文献核验、真实安装后触发测试和真实博士选题压力测试。具体路线见 [`docs/skill-improvement-task-list.md`](docs/skill-improvement-task-list.md)。
+下一阶段目标是 V1.5：继续推进中文核心/CSSCI 期刊论文核验、真实安装后触发测试和真实博士选题压力测试。具体路线见 [`docs/skill-improvement-task-list.md`](docs/skill-improvement-task-list.md)。
 
 ## 推荐使用路径
 

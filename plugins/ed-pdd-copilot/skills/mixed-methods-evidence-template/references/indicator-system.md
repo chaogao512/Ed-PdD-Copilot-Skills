@@ -10,6 +10,16 @@
 6. Determine weights only after the indicator meaning is stable.
 7. Report limitations and context of use.
 
+## Chinese Standard Alignment
+
+When constructing indicators for teacher digital competence or education digitalization:
+
+- Use verified policy/standard sources to define the construct boundary.
+- Do not copy policy wording directly as indicators without operational definitions.
+- For teacher digital literacy/competence, distinguish knowledge, attitude, practice, teaching integration, assessment use, professional development and ethical awareness.
+- Require classroom-transfer evidence when claiming competence development.
+- Report whether indicators are policy-derived, literature-derived, expert-derived or practice-derived.
+
 ## Delphi reporting essentials
 
 - Expert selection criteria and number.
