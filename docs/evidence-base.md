@@ -27,6 +27,7 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 | `docs/adaptation-diagnosis.md` | Local project document | Diagnosis of mismatch between original Supervisor-Skills and education informatization governance |
 | `docs/paper-template-adaptation-plan.md` | Local project document | Introduction logic, paper template adaptation, figure design and mixed-methods evidence logic |
 | `docs/literature-map-edtech-governance.md` | Local project document | Working map of EdTech governance literature themes, policy anchors, method sources and translation into skill patterns |
+| `docs/chinese-core-literature-inventory.md` | Local project document | Traceable inventory of policy sources, local plan references, method sources and Chinese EdTech literature search targets |
 
 ## Translation Into Skill Rules
 
@@ -43,3 +44,9 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 - Added a design science research reporting guide for EdTech governance artifacts.
 - Added failure-case regression examples for technology-first ideas, evidence mismatch, decorative theory and policy sloganization.
 - Strengthened structure checks so reference files must exist, have substance and be mentioned by their `SKILL.md`.
+
+## V0.6 Additions
+
+- Added Chinese EdTech governance literature inventory with verification status labels.
+- Added filled examples for Delphi, questionnaire, interview, log-data and DSR reporting.
+- Added failure case regression protocol.

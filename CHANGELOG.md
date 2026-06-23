@@ -1,5 +1,12 @@
 # Changelog
 
+## V0.6 - 2026-06-23
+
+- Added `docs/chinese-core-literature-inventory.md` with 28 traceable policy, method and Chinese EdTech literature target entries.
+- Added filled examples for Delphi, questionnaire, interview, log/data trace and design science research reporting.
+- Added `docs/examples/failure-cases/README.md` as a regression protocol for weak-input tests.
+- Updated README, evidence base and coverage matrix for V0.6.
+
 ## V0.5 - 2026-06-23
 
 - Added `docs/literature-map-edtech-governance.md`.

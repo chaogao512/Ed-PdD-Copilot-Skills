@@ -19,6 +19,7 @@ Design evidence chains for education technology and governance research. Replace
 - Read `references/triangulation.md` when integrating evidence.
 - Read `references/method-reporting-templates.md` when writing methods sections.
 - Read `references/design-science-reporting.md` when the study builds or evaluates an artifact.
+- Read `references/worked-examples.md` when the user needs filled method examples.
 
 ## Core Procedure
 

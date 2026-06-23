@@ -19,6 +19,7 @@ REQUIRED_REFERENCE_HINTS = {
         "triangulation.md",
         "method-reporting-templates.md",
         "design-science-reporting.md",
+        "worked-examples.md",
     ],
     "governance-figure-designer": ["figure-types.md", "layout-patterns.md", "label-language.md", "quality-audit.md"],
     "edtech-pre-submission-reviewer": ["review-rubric.md", "theory-policy-checklist.md", "method-evidence-checklist.md", "ethics-data-governance.md", "style-anti-patterns.md"],
@@ -28,6 +29,7 @@ REQUIRED_REFERENCE_HINTS = {
 REQUIRED_DOCS = [
     "docs/evidence-base.md",
     "docs/literature-map-edtech-governance.md",
+    "docs/chinese-core-literature-inventory.md",
     "docs/skill-coverage-matrix.md",
     "docs/case-multi-agent-smart-campus.md",
     "docs/review-2026-06-23-v0.4.md",
@@ -46,6 +48,7 @@ REQUIRED_EXAMPLES = [
     "docs/examples/failure-cases/02-evidence-mismatch.md",
     "docs/examples/failure-cases/03-decorative-theory.md",
     "docs/examples/failure-cases/04-policy-sloganization.md",
+    "docs/examples/failure-cases/README.md",
 ]
 
 
@@ -71,6 +74,17 @@ def main() -> int:
         coverage_text = coverage.read_text(encoding="utf-8")
         if "pending" in coverage_text.lower():
             failures.append("coverage matrix still contains pending items")
+
+    inventory = ROOT / "docs" / "chinese-core-literature-inventory.md"
+    if inventory.exists():
+        inventory_text = inventory.read_text(encoding="utf-8")
+        # Count table rows with numbered entries.
+        rows = [line for line in inventory_text.splitlines() if line.startswith("| ") and len(line.split("|")) > 5]
+        numbered_rows = [line for line in rows if line.split("|")[1].strip().isdigit()]
+        if len(numbered_rows) < 20:
+            failures.append("Chinese literature inventory has fewer than 20 numbered entries")
+        if "needs_cnki_verification" not in inventory_text:
+            failures.append("Chinese literature inventory lacks verification-status labeling")
 
     for skill, refs in sorted(REQUIRED_REFERENCE_HINTS.items()):
         folder = SKILLS / skill
