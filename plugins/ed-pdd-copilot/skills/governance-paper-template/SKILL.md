@@ -16,6 +16,7 @@ Build a full logical skeleton for education informatization governance studies. 
 - Read `references/theory-to-design.md` before building mechanisms or modules.
 - Read `references/dual-topology.md` for architecture and actor-responsibility mapping.
 - Read `references/section-skeleton.md` for the manuscript outline.
+- For artifact-building studies, route to `mixed-methods-evidence-template/references/design-science-reporting.md` for DSR reporting requirements.
 - Read `references/worked-examples.md` when the user works on smart campus or multi-Agent governance.
 
 ## Core Procedure

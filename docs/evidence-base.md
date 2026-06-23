@@ -26,6 +26,7 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 |---|---|---|
 | `docs/adaptation-diagnosis.md` | Local project document | Diagnosis of mismatch between original Supervisor-Skills and education informatization governance |
 | `docs/paper-template-adaptation-plan.md` | Local project document | Introduction logic, paper template adaptation, figure design and mixed-methods evidence logic |
+| `docs/literature-map-edtech-governance.md` | Local project document | Working map of EdTech governance literature themes, policy anchors, method sources and translation into skill patterns |
 
 ## Translation Into Skill Rules
 
@@ -35,3 +36,10 @@ This file records the external materials used to refine `Ed-PdD-Copilot-Skills`.
 - Indicator systems need a theory-derived construct logic and an expert/empirical validation route.
 - Figures must show actors, responsibilities, data governance, feedback and ethical boundaries.
 - AI-assisted research workflows must distinguish assistance from authorship, judgment, evidence generation and final responsibility.
+
+## V0.5 Additions
+
+- Added method reporting templates for Delphi, questionnaire, interview and log-data evidence.
+- Added a design science research reporting guide for EdTech governance artifacts.
+- Added failure-case regression examples for technology-first ideas, evidence mismatch, decorative theory and policy sloganization.
+- Strengthened structure checks so reference files must exist, have substance and be mentioned by their `SKILL.md`.

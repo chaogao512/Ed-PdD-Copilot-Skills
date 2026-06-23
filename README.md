@@ -72,13 +72,16 @@ Ed-PdD-Copilot-Skills/
 
 ## 当前成熟度
 
-当前版本为 **V0.4 样例验证版**：
+当前版本为 **V0.5 方法与失败回测增强版**：
 
 - 7 个技能均已具备 `SKILL.md`、`agents/openai.yaml` 和 `references/` 支撑文件。
 - 已建立外部依据清单：[`docs/evidence-base.md`](docs/evidence-base.md)。
 - 已建立覆盖矩阵：[`docs/skill-coverage-matrix.md`](docs/skill-coverage-matrix.md)。
 - 已建立贯穿案例：[`docs/case-multi-agent-smart-campus.md`](docs/case-multi-agent-smart-campus.md)。
 - 已用贯穿案例生成 7 个技能样例输出，见 [`docs/examples/`](docs/examples/)。
+- 已加入失败案例回测：[`docs/examples/failure-cases/`](docs/examples/failure-cases/)。
+- 已加入文献地图：[`docs/literature-map-edtech-governance.md`](docs/literature-map-edtech-governance.md)。
+- 已加入方法报告模板和设计科学研究报告模板。
 
 下一阶段目标是 V1.0：继续补充更多真实案例、中文教育技术文献依据、结构检查自动化和跨技能回归测试。
 

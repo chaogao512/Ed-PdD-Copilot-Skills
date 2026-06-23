@@ -17,6 +17,8 @@ Design evidence chains for education technology and governance research. Replace
 - Read `references/quantitative-methods.md` for questionnaires, quasi-experiments, logs and statistics.
 - Read `references/qualitative-methods.md` for interviews, focus groups, observation and documents.
 - Read `references/triangulation.md` when integrating evidence.
+- Read `references/method-reporting-templates.md` when writing methods sections.
+- Read `references/design-science-reporting.md` when the study builds or evaluates an artifact.
 
 ## Core Procedure
 
